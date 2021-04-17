@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="searchMatchBackground" stylesheets="@../pics/Style.css"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.SearchMatch">
+   <children>
+      <Label layoutX="91.0" layoutY="55.0" text="Enter Date" />
+      <TextField fx:id="txtdate" layoutX="203.0" layoutY="51.0" prefHeight="25.0" prefWidth="194.0" promptText="(DD/MM/YYYY)" />
+      <Button fx:id="btnSearch" layoutX="450.0" layoutY="51.0" mnemonicParsing="false" onAction="#Search" prefHeight="25.0" prefWidth="75.0" text="Search" />
+      <TableView fx:id="searchTable" layoutX="30.0" layoutY="111.0" prefHeight="200.0" prefWidth="548.0">
+        <columns>
+          <TableColumn fx:id="club1name" prefWidth="96.0" text="Club 1 Name" />
+          <TableColumn fx:id="club1score" prefWidth="73.0" text="Club 1 Score" />
+            <TableColumn fx:id="club2name" text="Club 2 Name" />
+            <TableColumn fx:id="club2score" prefWidth="69.0" text="Club 2 Score" />
+            <TableColumn fx:id="date" prefWidth="158.0" text="Date of Played" />
+            <TableColumn fx:id="winorlose" prefWidth="71.0" text="Result" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnclose" layoutX="272.0" layoutY="338.0" mnemonicParsing="false" onAction="#Close" prefHeight="25.0" prefWidth="56.0" text="Close" />
+   </children>
+</AnchorPane>

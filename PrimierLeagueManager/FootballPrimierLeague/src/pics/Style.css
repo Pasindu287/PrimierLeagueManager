@@ -1,0 +1,30 @@
+.menuBackground{
+   -fx-background-image: url("Menu.jpg");
+}
+.categirieBackground{
+   -fx-background-image: url("Categories.jpg");
+}
+.listoftableBackground{
+   -fx-background-image: url("listoftable.jpg");
+}
+.listofscltableBackground{
+   -fx-background-image: url("listofscltable.jpg");
+}
+.listofunitableBackground{
+   -fx-background-image: url("listofunitable.jpg");
+}
+.listofMatchBackground{
+   -fx-background-image: url("listofmatch.jpg");
+}
+.listofsclMatchBackground{
+   -fx-background-image: url("listofsclmatch.jpg");
+}
+.listofuniMatchBackground{
+   -fx-background-image: url("listofunimatch.jpg");
+}
+.searchMatchBackground{
+   -fx-background-image: url("searchmatch.jpg");
+}
+.matchgeneratorBackground{
+   -fx-background-image: url("matchgenerator.png");
+}

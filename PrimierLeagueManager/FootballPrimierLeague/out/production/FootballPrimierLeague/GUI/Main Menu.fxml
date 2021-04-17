@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="544.0" prefWidth="600.0" styleClass="menuBackground" stylesheets="@../pics/Style.css"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.MainMenu">
+   <children>
+      <Button fx:id="btnplayedmatch" layoutX="208.0" layoutY="208.0" mnemonicParsing="false" onAction="#Navigateplayedmatch" prefHeight="38.0" prefWidth="147.0" text="Played Matches Table" />
+      <Button fx:id="btnsearchmtches" layoutX="208.0" layoutY="291.0" mnemonicParsing="false" onAction="#NavigateSearchMatch" prefHeight="38.0" prefWidth="147.0" text="Search Matches" />
+      <Button fx:id="btngenerator" layoutX="208.0" layoutY="371.0" mnemonicParsing="false" onAction="#Navigategenerator" prefHeight="38.0" prefWidth="147.0" text="Auto Matches Generator" />
+      <Button fx:id="btnleaugetable" layoutX="208.0" layoutY="127.0" mnemonicParsing="false" onAction="#Navigateleaugetable" prefHeight="38.0" prefWidth="147.0" text="Primier Leauge Table" />
+      <Button fx:id="btnexit" layoutX="464.0" layoutY="424.0" mnemonicParsing="false" onAction="#NavigateExit" prefHeight="25.0" prefWidth="54.0" text="Exit" />
+      <Label layoutX="202.0" layoutY="44.0" text="MAIN MENU" textFill="#5cc1d1">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

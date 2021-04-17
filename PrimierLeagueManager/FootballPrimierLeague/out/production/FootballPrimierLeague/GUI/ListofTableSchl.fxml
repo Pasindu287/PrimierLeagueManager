@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="listofscltableBackground" stylesheets="@../pics/Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.ListofTableSchl">
+   <children>
+      <TableView fx:id="pointsTable" layoutX="16.0" layoutY="67.0" prefHeight="266.0" prefWidth="576.0">
+        <columns>
+          <TableColumn fx:id="clubname" prefWidth="101.0" text="ClubName" />
+          <TableColumn fx:id="won" sortType="DESCENDING" text="Won" />
+            <TableColumn fx:id="lost" sortable="false" text="Lost" />
+            <TableColumn fx:id="draw" sortable="false" text="Draw" />
+            <TableColumn fx:id="played" prefWidth="75.0" sortType="DESCENDING" text="Played" />
+            <TableColumn fx:id="clubpoints" text="Club points" />
+            <TableColumn fx:id="goals" prefWidth="79.0" text="Goals" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnclose" layoutX="275.0" layoutY="347.0" mnemonicParsing="false" onAction="#Close" prefHeight="25.0" prefWidth="58.0" text="Close" />
+   </children>
+</AnchorPane>
